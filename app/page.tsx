@@ -9,7 +9,7 @@ export default function PortfolioHome() {
         <div className="flex flex-col md:flex-row md:items-center justify-between gap-6 border-b border-slate-800 pb-12">
           <div className="max-w-2xl">
             <span className="text-xs font-mono tracking-widest text-emerald-400 uppercase font-bold">
-              Systems Engineer Portfolio
+              // Core Focus: Interactive Runtime Systems
             </span>
             <h1 className="text-4xl font-extrabold tracking-tight sm:text-5xl mt-2 bg-gradient-to-r from-slate-100 via-slate-200 to-slate-400 bg-clip-text text-transparent">
               Engineering High-Performance Interactive Web Architectures.
