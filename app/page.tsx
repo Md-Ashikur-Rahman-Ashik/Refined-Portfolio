@@ -1,5 +1,6 @@
 import React from "react";
 import PerformanceDashboard from "@/components/performance-dashboard";
+import EngineeringCapabilities from "@/components/engineering-capabilities";
 
 export default function PortfolioHome() {
   return (
@@ -36,7 +37,7 @@ export default function PortfolioHome() {
         </div>
       </section>
 
-      <section className="max-w-5xl mx-auto pb-24 px-6">
+      <section className="max-w-5xl mx-auto px-6">
         <div className="mb-8">
           <h2 className="text-xl font-bold tracking-tight text-slate-200 uppercase font-mono text-xs text-slate-400">
             Case Study: Deep-Dive Observability
@@ -48,9 +49,13 @@ export default function PortfolioHome() {
             resolved browser layout jank.
           </p>
         </div>
+      </section>
 
+      <section className="max-w-5xl mx-auto pb-24 px-6">
         <PerformanceDashboard />
       </section>
+
+      <EngineeringCapabilities />
     </main>
   );
 }
