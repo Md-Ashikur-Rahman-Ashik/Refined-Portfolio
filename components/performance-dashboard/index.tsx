@@ -2,7 +2,7 @@ import { useState } from "react";
 import { usePerformanceMock } from "./use-performance-mock";
 import StateTreeViewer from "./state-tree-viewer";
 import PerformanceScorecard from "./performance-scorecard";
-// import StreamingCharts from "./streaming-charts";
+import StreamingCharts from "./streaming-charts";
 
 export default function PerformanceDashboard() {
   const [activeMode, setActiveMode] = useState<
@@ -48,12 +48,19 @@ export default function PerformanceDashboard() {
         </div>
       </div>
 
-
       <PerformanceScorecard mode={activeMode} liveData={streamData} />
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-6">
-        {/* <StreamingCharts type="unoptimized" activeMode={activeMode} data={streamData} /> */}
-        {/* <StreamingCharts type="optimized" activeMode={activeMode} data={streamData} /> */}
+        <StreamingCharts
+          type="unoptimized"
+          activeMode={activeMode}
+          data={streamData}
+        />
+        <StreamingCharts
+          type="optimized"
+          activeMode={activeMode}
+          data={streamData}
+        />
       </div>
 
       <StateTreeViewer mode={activeMode} />
