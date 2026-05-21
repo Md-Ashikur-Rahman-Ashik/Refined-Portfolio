@@ -1,8 +1,7 @@
 import { useState } from "react";
 import { usePerformanceMock } from "./use-performance-mock";
 import StateTreeViewer from "./state-tree-viewer";
-// Note: We will wire these two sub-components up next, but we scaffold them here
-// import PerformanceScorecard from "./performance-scorecard";
+import PerformanceScorecard from "./performance-scorecard";
 // import StreamingCharts from "./streaming-charts";
 
 export default function PerformanceDashboard() {
@@ -49,8 +48,8 @@ export default function PerformanceDashboard() {
         </div>
       </div>
 
-      {/* 2. Top-Level KPI Scorecards Panel (Spans full width across 3 columns) */}
-      {/* <PerformanceScorecard mode={activeMode} liveData={streamData} /> */}
+
+      <PerformanceScorecard mode={activeMode} liveData={streamData} />
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-6">
         {/* <StreamingCharts type="unoptimized" activeMode={activeMode} data={streamData} /> */}
