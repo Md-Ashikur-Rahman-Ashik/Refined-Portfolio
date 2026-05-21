@@ -40,7 +40,7 @@ export default function EngineeringCapabilities() {
     <section className="max-w-5xl mx-auto pb-24 px-6 border-t border-slate-800 pt-16">
       <div className="mb-10">
         <span className="text-xs font-mono tracking-widest text-slate-500 uppercase font-bold">
-          Core Core Competencies
+          Core Competencies
         </span>
         <h3 className="text-2xl font-bold tracking-tight text-slate-200 mt-1">
           Engineering Capabilities & Paradigms
