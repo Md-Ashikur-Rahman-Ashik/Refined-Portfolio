@@ -69,7 +69,7 @@ export default function PortfolioHome() {
         <div>
           © {new Date().getFullYear()} — Engineered by{" "}
           <span className="text-slate-300 font-sans font-semibold">
-            Your Name
+            Md Ashikur Rahman Ashik
           </span>
         </div>
         <div className="flex gap-6">
