@@ -21,7 +21,7 @@ export const metadata: Metadata = {
   keywords: ["Interactive UIs", "Runtime Systems", "Performance Engineering", "Data Layouts", "State Management"],
   authors: [{ name: "Md Ashikur Rahman Ashik" }],
   icons: {
-    icon: "/favicon.ico", // Standard icon
+    icon: "/icon.png",
     apple: "/apple-icon.png", // Mobile bookmarking profile
   },
 };
