@@ -83,7 +83,7 @@ export default function PortfolioHome() {
               </a>
 
               <a
-                href="mailto:your.email@domain.com"
+                href="mailto:md.ashikur.upwork@gmail.com"
                 className="flex justify-between items-center group text-slate-400 hover:text-slate-200 transition-colors"
               >
                 <span>rpc://email</span>
